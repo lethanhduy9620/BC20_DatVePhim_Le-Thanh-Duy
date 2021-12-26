@@ -1,0 +1,199 @@
+/* @font-face {
+    font-family: 'fontGame';
+    src: url('../font/Pony.ttf');
+} */
+
+.bookingMovie {
+    font-family: 'fontGame';
+}
+
+
+.ghe {
+    border: 3px solid orange;
+    width: 45px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    /* margin-left: 2%; */
+    margin-bottom: 1%;
+    border-radius: 5px;
+}
+
+.rowNumber {
+    /* font-size: 25px; */
+    width: 45px;
+    height: 35px;
+    background: none;
+    border: none;
+    /* margin-left: 2%; */
+    /* margin-bottom: 1%; */
+    font-size: 1.25rem;
+    color: yellow;
+    text-align: center;
+
+}
+
+.firstChar {
+    color: yellow;
+    font-size: 1.25rem;
+    margin-right: 15px;
+
+}
+
+.screen {
+    border-bottom: 20px solid rgb(255, 159, 95);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    /* height: 25px; */
+    width: 90%;
+    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+    font-size: 25px;
+    color: #fff;
+
+    /* Author: Le Thanh Duy */
+    margin: 0.5rem auto 0;
+}
+
+
+.gheDuocChon {
+    border: 3px solid orange;
+
+    background: orange;
+    color: #000;
+
+    cursor: no-drop !important;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.gheDangChon {
+    background: rgb(109, 238, 109);
+    border: 3px solid rgb(109, 238, 109);
+    color: #000;
+
+    cursor: pointer;
+    border-radius: 5px;
+    width: 45px;
+    height: 35px;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Author: Le Thanh Duy*/
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url('./../img/bgmovie.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container-fluid {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.background .col-8>h2 {
+    text-align: center;
+    color: rgb(255, 159, 95);
+    font-size: 1.75rem;
+}
+
+.background .col-8>h5 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.background .col-4>h2 {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+/* ThongTinDatGhe */
+.background .col-4 ul {
+    padding-left: 0;
+    margin-top: 2rem;
+}
+
+.background .col-4 ul li {
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 0.25rem 0;
+}
+
+.background .col-4 ul li button {
+    margin-right: 0.5rem;
+}
+
+.background .col-4 table {
+    margin-top: 2rem;
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #fff;
+    width: 100%;
+}
+
+.background .col-4 table thead tr {
+    font-size: 1.5rem;
+}
+
+.background .col-4 table thead th:first-child,
+.background .col-4 table thead th:nth-child(2) {
+    width: 40%;
+}
+
+.background .col-4 table tbody tr {
+    font-size: 1.25rem;
+    color: rgb(255, 159, 95);
+    font-weight: 600;
+}
+
+.background .col-4 .huyChonBtn {
+    color: red;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+
+.background .col-8 .hangGhe {
+    display: flex;
+    justify-content: center;
+}
+
+.background .col-8 .gridHangGhe {
+    display: grid;
+    /* width: 90%; */
+    margin: 0 auto;
+    padding-right: 3rem;
+    grid-template-columns: 2rem repeat(12, 1fr);
+    justify-content: center;
+    justify-items: center;
+    column-gap: 1rem;
+    padding-bottom: 0.75rem;
+}
+
+.background .col-8 .gridHangGhe:first-child {
+    padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+}
