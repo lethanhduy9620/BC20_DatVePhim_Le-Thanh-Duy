@@ -144,6 +144,11 @@
     margin-right: 0.5rem;
 }
 
+.background .col-4 .table-container {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
 .background .col-4 table {
     margin-top: 2rem;
     color: #fff;
@@ -151,6 +156,7 @@
     border-collapse: collapse;
     border: 1px solid #fff;
     width: 100%;
+    overflow-y: scroll;
 }
 
 .background .col-4 table thead tr {

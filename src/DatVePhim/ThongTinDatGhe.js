@@ -36,18 +36,20 @@ class ThongTinDatGhe extends Component {
                         <button className='ghe'></button>Ghế chưa đặt
                     </li>
                 </ul>
-                <table className='table' border="2">
-                    <thead>
-                        <tr>
-                            <th>Số ghế</th>
-                            <th>Giá</th>
-                            <th>Hủy</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {this.renderGheDangDat()}
-                    </tbody>
-                </table>
+                <div className='table-container'>
+                    <table className='table' border="2">
+                        <thead>
+                            <tr>
+                                <th>Số ghế</th>
+                                <th>Giá</th>
+                                <th>Hủy</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {this.renderGheDangDat()}
+                        </tbody>
+                    </table>
+                </div>
             </div>
         )
     }
